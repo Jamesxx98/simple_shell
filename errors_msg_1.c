@@ -37,7 +37,7 @@ _strcat(error, ": ");
 _strcat(error, hist_str);
 _strcat(error, ": ");
 _strcat(error, args[0]);
-_strcat(error, ": Unable to add/remove from environment\n")
+_strcat(error, ": Unable to add/remove from environment\n");
 free(hist_str);
 return (error);
 }
