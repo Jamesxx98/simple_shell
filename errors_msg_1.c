@@ -22,6 +22,7 @@ char *error_env(char **args)
 char *error, *hist_str;
 int len;
 hist_str = _itoa(hist);
+{
 if (!hist_str)
 return (NULL);
 args--;
@@ -31,6 +32,7 @@ if (!error)
 {
 free(hist_str);
 return (NULL);
+}
 }
 _strcpy(error, name);
 _strcat(error, ": ");
