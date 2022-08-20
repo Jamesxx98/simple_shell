@@ -107,7 +107,10 @@ void free_list(list_t *head);
 
 char *_itoa(int num);
 
+char *name;
+/* Global history counter */
 
+int hist;
 
 /* Input Helpers */
 
